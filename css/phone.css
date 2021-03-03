@@ -1,0 +1,93 @@
+#navbar{
+    flex-direction: column;
+    height: 22vh;
+    font-size: 0.8rem;
+}
+#navbar::before {
+    height: 21vh;
+}
+#navbar ul li {
+    font-size: 0.8rem;
+}
+#navbar ul {
+    display: flex;
+    margin: auto;
+}
+#home h1{
+    font-size: 1.2rem;
+}
+#home p{
+    font-size: 0.9rem;
+}
+#home {
+    font-size: 0.5rem;
+    padding: 0px 3px;
+   top:0%;
+    /* height: 51vh; */
+    height: 111vh;
+} 
+#home::before {
+   
+    height: 116vh;}
+#logo{
+    margin: 5px;
+}
+#services{
+flex-direction: column;
+height: auto;
+overflow: hidden;
+padding:auto;
+margin: auto;
+font-size: 0.9rem;
+width: auto;
+}
+.services-conatiner {
+    height: auto;
+font-size: 1.1rem;}
+.services-conatiner h1{
+    padding:35px;
+}
+#ClientSection h1{
+    font-size: 1.1rem;
+    padding:auto;
+    margin: auto;
+    
+}
+#Clients{
+    overflow: hidden;
+    flex-direction: column;
+
+}
+#ClientSection{
+    overflow: hidden;
+    flex-direction: column;
+    height: auto;
+    /* margin: auto; */
+    font-size: 0.9rem;
+    top: 0%;
+}
+.ClientsItems {
+    padding: 2px;
+}
+#ClientSection .primaryCentre {
+    position: relative;
+    align-items: center;
+    padding: 0px 0px;
+}
+#ClientSection::before {
+   height: 90vh;}
+   .formGroup {
+/* font-size: 0.5rem; */
+    width: 68vw;
+    padding: 0px 0px;
+}
+#ContactBox label {
+    font-size: 0.9rem;
+}
+#ContactBox input, #ContactBox textarea {
+    padding:0px;
+    font-size: 0.6rem;
+}
+footer{
+    font-size: 0.7rem;
+}
